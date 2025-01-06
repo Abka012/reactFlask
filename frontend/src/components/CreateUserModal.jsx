@@ -122,7 +122,7 @@ const CreateUserModal = ({ setUsers }) => {
                 <Textarea
                   resize={"none"}
                   overflowY={"hidden"}
-                  placeholder="The daughter of the King❤️🙏🏾👨‍👧❗"
+                  placeholder="The daughter of the King❤️🙏🏾👨‍👧❗ "
                   value={inputs.description}
                   onChange={(e) =>
                     setInputs({ ...inputs, description: e.target.value })
